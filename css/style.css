@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+figure > img {
+    max-inline-size: 100%;
+    height: auto;
+   }
 
 /* layouts rules */
 /* mobile */
