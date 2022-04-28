@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 
-figure > img {
+img {
     max-inline-size: 100%;
     height: auto;
    }
@@ -55,6 +55,17 @@ figure > img {
 .navigation__item {
     margin-left: 40px;
 } 
+
+/* about section */
+.about {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+}
+
+.about__hero {
+    align-self: center;
+}
 
 /* contact */
 .contact {
