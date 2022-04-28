@@ -40,3 +40,26 @@ figure > img {
     }
 
 }
+
+/* module */
+/* contact */
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact__information {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.contact__item {
+    padding: 15px;
+}
+.contact__information img {
+    padding-right: 5px;
+}
+
