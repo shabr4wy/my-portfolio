@@ -1,4 +1,4 @@
-/* base rules */
+/* --- base rules --- */
 * {
     scroll-behavior: smooth;
     padding: 0;
@@ -11,7 +11,7 @@ img {
     height: auto;
    }
 
-/* layouts rules */
+/* ---- layouts rules --- */
 .about,
 .work,
 .contact {
@@ -31,7 +31,7 @@ img {
     align-items: center;
 }
 
-/* module */
+/* --- module --- */
 /* nav */
 .navigation__list {
     display: flex;
