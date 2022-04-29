@@ -24,6 +24,7 @@ a {
 img {
     max-inline-size: 100%;
     height: auto;
+    display: block;
    }
 
 /* ---- layouts rules --- */
@@ -136,4 +137,14 @@ background-color: aquamarine;
 /* about */
 .about {
     background-color: #082032;
+}
+
+/* work */
+.work {
+    background-color: #415a77;
+}
+
+.card figcaption {
+    background-color: #082032;
+    padding: 10px;
 }
