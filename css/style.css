@@ -13,6 +13,12 @@ html {
     font-display: swap;
 }
 
+/* styling */
+a {
+    text-decoration: none;
+}
+
+/* sizes */
 img {
     max-inline-size: 100%;
     height: auto;
