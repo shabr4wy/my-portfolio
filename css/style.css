@@ -35,7 +35,6 @@ img {
 /* nav */
 .navigation__list {
     display: flex;
-    background-color: beige;
     justify-content: center;
     position: fixed;
     width: 100%;
