@@ -111,3 +111,12 @@ background-color: aquamarine;
 .contact__information img {
     padding-right: 5px;
 }
+
+
+
+/* --- Theme --- */
+/* navigation */
+.navigation__list {
+    background-color: #FF4C29;
+    list-style-type: none;
+}
