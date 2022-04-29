@@ -28,7 +28,7 @@ img {
 .about,
 .work,
 .contact {
-    padding: 50px 20px;
+    padding: 3em 2em 0 2em;
 }
 
 #about,
@@ -48,6 +48,7 @@ img {
 /* nav */
 .navigation__list {
     display: flex;
+background-color: aquamarine;
     justify-content: center;
     align-items: center;
     position: fixed;
