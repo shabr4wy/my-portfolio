@@ -116,6 +116,8 @@ background-color: aquamarine;
 }
 
 .contact__item {
+    display: flex;
+    align-items: center;
     padding: 15px;
 }
 .contact__information img {
