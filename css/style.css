@@ -32,12 +32,7 @@ img {
 .work,
 .contact {
     padding: 3em 2em 0 2em;
-}
-
-#about,
-#work,
-#contact {
-    min-height: 100vh;   
+    min-height: 100vh;
 }
 
 .work__cards,
