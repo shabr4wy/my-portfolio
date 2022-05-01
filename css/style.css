@@ -48,16 +48,17 @@ a {
 /* nav */
 .navigation__list {
     display: flex;
-background-color: aquamarine;
+    background-color: aquamarine;
     justify-content: center;
     align-items: center;
     position: fixed;
+    z-index: 999;
     width: 100%;
 }
 
 .navigation__item a {
     display: block;
-    padding: 1em;
+    padding: .7em 2em;
 } 
 
 /* about section */
