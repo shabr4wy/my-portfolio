@@ -46,14 +46,17 @@ a {
 
 /* --- module --- */
 /* nav */
-.navigation__list {
+.navigation {
     display: flex;
-    background-color: aquamarine;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     position: fixed;
     z-index: 999;
     width: 100%;
+}
+
+.navigation__list {
+    display: flex;
 }
 
 .navigation__item a {
