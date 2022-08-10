@@ -143,6 +143,13 @@ a {
     list-style-type: none;
 }
 
+.navigation__logoText a {
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: 1.3em;
+    text-shadow: 3px 3px 10px black;
+}
+
 /* about */
 .about {
     background-color: #082032;
