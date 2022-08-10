@@ -135,8 +135,11 @@ a {
 
 /* --- Theme --- */
 /* navigation */
+.navigation {
+    background-color: #FF4C29; 
+}
+
 .navigation__list {
-    background-color: #FF4C29;
     list-style-type: none;
 }
 
