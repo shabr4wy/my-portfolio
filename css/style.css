@@ -59,6 +59,10 @@ a {
     display: flex;
 }
 
+.navigation__logoText {
+    padding: 0 2em;
+}
+
 .navigation__item a {
     display: block;
     padding: .7em 2em;
