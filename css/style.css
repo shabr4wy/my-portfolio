@@ -55,8 +55,13 @@ a {
     width: 100%;
 }
 
-.navigation__list {
-    display: flex;
+summary::before {
+    content: url('/icons/bars-solid.svg');
+    float: right;
+    width: 15px;
+    margin: 15px 5px;
+    width: 20px;
+    height: 20px;
 }
 
 .navigation__logoText {
