@@ -166,6 +166,10 @@ summary::before {
     background-color: #FF4C29; 
 }
 
+.navigation__smallerScreen > ul {
+    background-color: #FF4C29;
+}
+
 .navigation__logoText a {
     font-family: cursive;
     font-weight: bolder;
