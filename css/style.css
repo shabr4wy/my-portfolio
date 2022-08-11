@@ -56,7 +56,7 @@ a {
 }
 
 summary::before {
-    content: url('/icons/bars-solid.svg');
+    content: url('../icons/bars-solid.svg');
     float: right;
     width: 15px;
     margin: 15px 5px;
