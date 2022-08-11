@@ -182,6 +182,10 @@ li {
     list-style-type: none;
 }
 
+summary {
+    cursor: pointer;
+}
+
 /* about */
 .about {
     background-color: #082032;
