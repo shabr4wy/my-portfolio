@@ -72,6 +72,20 @@ summary::before {
     top: 50px;
 }
 
+.navigation__biggerScreen {
+    display: none;
+}
+
+@media (min-width: 900px) {
+    .navigation__smallerScreen {
+        display: none;
+    }
+
+    .navigation__biggerScreen {
+        display: flex;
+    }
+}
+
 .navigation__logoText {
     padding: 0 2em;
 }
