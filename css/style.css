@@ -64,6 +64,14 @@ summary::before {
     height: 20px;
 }
 
+.navigation__smallerScreen > ul {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 0px;
+    top: 50px;
+}
+
 .navigation__logoText {
     padding: 0 2em;
 }
