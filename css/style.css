@@ -99,7 +99,21 @@ summary::before {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content:space-evenly;
+}
+
+.usedTech__header {
+    text-align: center;   
+}
+
+.usedTech__logos > img {
+    margin: 10px;
+}
+
+.usedTech__logos {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
 }
 
 /* work */
