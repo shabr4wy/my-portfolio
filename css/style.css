@@ -153,9 +153,10 @@ summary::before {
 
 .contact__information {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     flex-wrap: wrap;
-    margin-top: 30px;
+    margin: 10px 0px;
 }
 
 .contact__item {
