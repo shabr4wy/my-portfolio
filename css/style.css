@@ -147,15 +147,14 @@ summary::before {
 .contact__information {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-content: center;
     flex-wrap: wrap;
-    margin: 10px 0px;
 }
 
 @media (min-width: 480px){
     .contact__information{
         flex-direction: row;
-        margin: 0;
+        justify-content: center;
     }
 }
 
