@@ -145,12 +145,6 @@ summary::before {
 }
 
 /* contact */
-.contact {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
 .contact__information {
     display: flex;
     flex-direction: column;
