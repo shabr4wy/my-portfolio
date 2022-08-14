@@ -31,8 +31,7 @@ a {
 
 /* ---- layouts rules --- */
 .about,
-.work,
-.contact {
+.work{
     padding: 3em 2em 0 2em;
     min-height: 100vh;
 }
