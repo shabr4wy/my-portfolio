@@ -36,8 +36,7 @@ a {
     min-height: 100vh;
 }
 
-.work__cards,
-.contact {
+.work__cards {
     display: flex;
     flex-direction: column;
     align-items: center;
