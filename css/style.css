@@ -177,11 +177,11 @@ summary::before {
 /* --- Theme --- */
 /* navigation */
 .navigation {
-    background-color: #FF4C29; 
+    background-color: #BA2D0B; 
 }
 
 .navigation__smallerScreen > ul {
-    background-color: #FF4C29;
+    background-color: #BA2D0B;
 }
 
 .navigation__logoText a {
