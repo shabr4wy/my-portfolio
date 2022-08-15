@@ -210,6 +210,11 @@ summary {
     box-shadow: 0 0 0 5px #FF4C29;
 }
 
+.about__bio {
+    max-inline-size: 66ch;
+    line-height: 1.5;
+}
+
 /* work */
 .work {
     background-color: #415a77;
