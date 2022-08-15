@@ -207,7 +207,7 @@ summary {
 
 .about__hero img {
     border-radius: 50%;
-    box-shadow: 0 0 0 5px #FF4C29;
+    box-shadow: 0 0 0 5px white;
 }
 
 .about__bio {
