@@ -214,6 +214,8 @@ summary {
 .about__bio {
     max-inline-size: 66ch;
     line-height: 1.5;
+    border-left: 3px solid #BA2D0B;
+    padding-left: 10px;
 }
 
 /* work */
