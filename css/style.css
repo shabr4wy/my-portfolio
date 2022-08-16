@@ -61,7 +61,7 @@ a {
 summary::before {
     content: url('../icons/bars-solid.svg');
     float: right;
-    margin: 15px 5px;
+    padding: .8em 1.2em;
     width: 20px;
     height: 20px;
 }
@@ -89,12 +89,12 @@ summary::before {
 }
 
 .navigation__logoText {
-    padding: 0 2em;
+    padding: 0 1.2em;
 }
 
 .navigation__item a {
     display: block;
-    padding: .7em 2em;
+    padding: .7em 1.2em;
 } 
 
 /* about section */
