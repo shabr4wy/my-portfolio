@@ -95,6 +95,7 @@ summary::before {
 .navigation__item a {
     display: block;
     padding: .7em 1.2em;
+    text-align: center;
 } 
 
 /* about section */
