@@ -236,7 +236,12 @@ summary {
 
 .about__hero img {
     border-radius: 50%;
-    box-shadow: 0 0 0 3px white;
+}
+
+@media (min-width: 1200px) {
+    .about__hero img {
+        border-radius: 10px;
+    }
 }
 
 /* work */
