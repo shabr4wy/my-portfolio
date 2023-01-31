@@ -172,6 +172,10 @@ summary::before {
         order: 2;
     }
 
+    #about .about__hero img {
+        min-width: 380px;
+    }
+
     .usedTech {
         order: 3;
     }
