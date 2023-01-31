@@ -211,12 +211,6 @@ summary {
     box-shadow: 0 0 0 3px white;
 }
 
-.about__bio {
-    max-inline-size: 66ch;
-    line-height: 1.5;
-    text-align: center;
-}
-
 /* work */
 .work {
     background-color: #415a77;
