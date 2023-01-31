@@ -40,12 +40,6 @@ a {
     margin-top: 45px;
 }
 
-.work__cards {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 /* --- module --- */
 /* nav */
 .navigation {
@@ -125,6 +119,13 @@ summary::before {
     margin: 20px;
     text-align: center;
 }
+
+.work__cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .card {
     margin: 1em 0;
 }
