@@ -100,6 +100,12 @@ summary::before {
     justify-content: space-around;
 }
 
+.about__introduction p{
+    max-inline-size: 66ch;
+    padding: 15px;
+    line-height: 1.6;
+}
+
 .usedTech__header {
     text-align: center;   
 }
