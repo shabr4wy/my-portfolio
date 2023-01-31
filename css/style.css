@@ -156,6 +156,27 @@ summary::before {
     }
 }
 
+/* for laptops and bigger */
+@media (min-width: 1200px) {
+    .about {
+        display: grid;
+        grid-template-columns: 1fr .5fr;
+        justify-items: center;
+    }
+
+    .about__introduction {
+        order: 1;
+    }
+
+    .about__hero {
+        order: 2;
+    }
+
+    .usedTech {
+        order: 3;
+    }
+}
+
 /* contact */
 .contact__information {
     display: flex;
