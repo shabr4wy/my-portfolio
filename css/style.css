@@ -14,10 +14,18 @@ html {
     color: white;
 }
 
-/* styling */
+/* Theme */
 a {
     text-decoration: none;
     color: white;
+}
+
+:root {
+    --primary-backGround-color: #ECE8DD;
+    --seondary-backGround-color: #85CDFD;
+    --font-color: black;
+    --primary-color: #E1D7C6;
+    --hover-state-color: #579BB1;
 }
 
 /* size */
