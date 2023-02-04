@@ -113,14 +113,11 @@ summary::before {
     text-align: center;   
 }
 
-.usedTech__logos > img {
-    margin: 10px;
-}
-
 .usedTech__logos {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 25px;
 }
 
 /* work */
