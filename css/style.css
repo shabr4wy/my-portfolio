@@ -29,7 +29,7 @@ a {
    }
 
 
-/* ---- layouts rules --- */
+/* ---- layouts rules ---- */
 .about,
 .work{
     padding: 2em;
@@ -110,7 +110,8 @@ summary::before {
 }
 
 .usedTech__header {
-    text-align: center;   
+    text-align: center;  
+    margin-bottom: 10px; 
 }
 
 .usedTech__logos {
