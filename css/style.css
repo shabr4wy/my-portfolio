@@ -100,10 +100,13 @@ summary::before {
     justify-content: space-around;
 }
 
-.about__introduction p{
+.about__introduction P {
     max-inline-size: 66ch;
-    padding: 15px;
     line-height: 1.6;
+}
+
+.about__introduction p:not(:last-child){
+    padding-bottom: 20px;
 }
 
 .usedTech__header {
