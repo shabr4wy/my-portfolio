@@ -232,11 +232,11 @@ html {
 
 /* navigation */
 .navigation {
-    background-color: #BA2D0B; 
+    background-color: var(--primary-backGround-color);
 }
 
 .navigation__smallerScreen > ul {
-    background-color: #BA2D0B;
+    background-color: var(--primary-backGround-color);
 }
 
 .navigation__logoText a {
