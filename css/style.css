@@ -112,6 +112,10 @@ summary::before {
     padding: 30px;
 }
 
+.about__name {
+    border-bottom: 3px solid white;
+}
+
 .about__introduction P {
     max-inline-size: 66ch;
     line-height: 1.6;
