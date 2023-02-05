@@ -107,6 +107,11 @@ summary::before {
     gap: 40px;
 }
 
+.about__introduction {
+    border-radius: 10px;
+    padding: 30px;
+}
+
 .about__introduction P {
     max-inline-size: 66ch;
     line-height: 1.6;
