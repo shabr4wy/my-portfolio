@@ -11,18 +11,17 @@ html {
     font-family: 'Poppins', sans-serif;
     font-size: clamp(1rem, 0.96rem + 0.3vw, 1.5rem);
     font-display: swap;
-    color: white;
 }
 
 /* Theme */
 a {
     text-decoration: none;
-    color: white;
+    color: var(--font-color);
 }
 
 :root {
-    --primary-backGround-color: #ECE8DD;
-    --seondary-backGround-color: #85CDFD;
+    --primary-backGround-color: #ffffff;
+    --secondary-backGround-color: #85CDFD;
     --font-color: black;
     --primary-color: #E1D7C6;
     --hover-state-color: #579BB1;
@@ -217,6 +216,11 @@ summary::before {
 
 
 /* --- Theme --- */
+html {
+    background-color: var(--primary-backGround-color);
+    color: var(--font-color);
+}
+
 /* navigation */
 .navigation {
     background-color: #BA2D0B; 
@@ -243,8 +247,8 @@ summary {
 }
 
 /* about */
-.about {
-    background-color: #082032;
+.about__introduction {
+    background-color: var(--secondary-backGround-color);
 }
 
 .about__hero img {
@@ -258,18 +262,9 @@ summary {
 }
 
 /* work */
-.work {
-    background-color: #415a77;
-}
-
 .card figcaption {
-    background-color: #082032;
+    background-color: var(--secondary-backGround-color);
     padding: 10px;
-}
-
-/* contact */
-.contact {
-    background-color: #082032;
 }
 
 
