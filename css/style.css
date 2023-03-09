@@ -60,7 +60,7 @@ p:not(:last-child){
 }
 
 .project__Page {
-    margin: 100px auto;
+    margin: auto;
     display: flex;
     flex-direction: column;
     gap: 100px;
@@ -178,6 +178,10 @@ summary::before {
     flex-direction: column;
     justify-content: center;
     gap: 50px;
+}
+
+.project__images {
+    padding: 100px 0;
 }
 
 .project__introduction,
