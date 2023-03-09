@@ -172,6 +172,7 @@ summary::before {
 /* project page */
 .project__overview {
     max-width: 1300px;
+    padding-top: 100px;
     margin: auto;
     display: flex;
     flex-direction: column;
