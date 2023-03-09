@@ -32,8 +32,16 @@ img {
     max-inline-size: 100%;
     height: auto;
     display: block;
-   }
+}
 
+P {
+    max-inline-size: 66ch;
+    line-height: 1.6;
+}
+
+p:not(:last-child){
+    padding-bottom: 20px;
+}
 
 /* ---- layouts rules ---- */
 .about,
@@ -120,15 +128,6 @@ summary::before {
 
 .about__name {
     border-bottom: 3px solid white;
-}
-
-.about__introduction P {
-    max-inline-size: 66ch;
-    line-height: 1.6;
-}
-
-.about__introduction p:not(:last-child){
-    padding-bottom: 20px;
 }
 
 .usedTech__header {
