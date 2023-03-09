@@ -167,6 +167,7 @@ summary::before {
 /* project page */
 figcaption {
     text-align: center;
+    margin-bottom: 10px;
 }
 
 .big__screen__images,
