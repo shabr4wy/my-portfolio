@@ -170,7 +170,7 @@ summary::before {
 
 
 /* project page */
-.project__description {
+.project__overview {
     max-width: 1300px;
     margin: auto;
     display: flex;
@@ -179,9 +179,9 @@ summary::before {
     gap: 50px;
 }
 
-.project__solution,
+.project__introduction,
 .project__challenge,
-.project__overview {
+.project__solution {
     background-color: var(--secondary-backGround-color);
     padding: 30px;
     border-radius: 10px;
@@ -251,12 +251,12 @@ figcaption {
         order: 3;
     }
 
-    .project__description {
+    .project__overview {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
 
-    .project__overview {
+    .project__introduction {
         grid-column: 1/3;
         justify-self: center;
     }
@@ -347,9 +347,9 @@ summary {
 }
 
 /* project page */
-.project__solution,
+.project__introduction,
 .project__challenge,
-.project__overview {
+.project__solution {
     background-color: var(--secondary-backGround-color);
 }
 
