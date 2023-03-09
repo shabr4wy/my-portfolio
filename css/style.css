@@ -338,6 +338,12 @@ summary {
     padding: 10px;
 }
 
+/* project page */
+.project__solution,
+.project__challenge,
+.project__overview {
+    background-color: var(--secondary-backGround-color);
+}
 
 /* --- changing state --- */
 /* navigation */
