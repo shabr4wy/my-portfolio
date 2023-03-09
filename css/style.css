@@ -47,6 +47,10 @@ a {
     margin-top: 45px;
 }
 
+.project__Page {
+    margin: 100px auto;
+}
+
 /* --- module --- */
 /* nav */
 .navigation {
