@@ -206,6 +206,7 @@ figcaption {
 
 /* for laptops and bigger */
 @media (min-width: 1200px) {
+    /* about */
     .about {
         display: grid;
         grid-template-columns: 1fr .5fr;
@@ -226,6 +227,13 @@ figcaption {
 
     .usedTech {
         order: 3;
+    }
+
+    /* project page */
+    .small__screen__images {
+        flex-direction: row;
+        justify-content: center;
+        align-items: start;
     }
 }
 
