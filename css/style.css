@@ -28,8 +28,7 @@ a {
 }
 
 /* size */
-.about img,
-.work img {
+img {
     max-inline-size: 100%;
     height: auto;
     display: block;
