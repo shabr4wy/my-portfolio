@@ -356,11 +356,7 @@ summary {
 /* --- changing state --- */
 /* navigation */
 .navigation__item a:hover {
-    background-color: #082032;
-}
-
-li:nth-child(2) > a:hover {
-    background-color: #415a77;
+    background-color: var(--secondary-backGround-color);
 }
 
 /* work */
