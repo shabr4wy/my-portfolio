@@ -121,7 +121,8 @@ summary::before {
     gap: 40px;
 }
 
-.about__introduction {
+.about__introduction
+{
     border-radius: 10px;
     padding: 30px;
 }
@@ -164,6 +165,15 @@ summary::before {
 
 
 /* project page */
+.project__description {
+    max-width: 1300px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+}
+
 figcaption {
     text-align: center;
     margin-bottom: 10px;
@@ -228,7 +238,6 @@ figcaption {
         order: 3;
     }
 
-    /* project page */
     .small__screen__images {
         flex-direction: row;
         justify-content: center;
