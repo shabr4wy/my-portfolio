@@ -46,8 +46,13 @@ p:not(:last-child){
 /* ---- layouts rules ---- */
 .about,
 .work{
-    padding: 2em;
     min-height: 100vh;
+}
+
+.about,
+.work,
+.project__Page {
+    padding: 2em;
 }
 
 .about {
