@@ -49,6 +49,9 @@ a {
 
 .project__Page {
     margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
 }
 
 /* --- module --- */
