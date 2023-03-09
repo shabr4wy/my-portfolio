@@ -165,6 +165,10 @@ summary::before {
 
 
 /* project page */
+figcaption {
+    text-align: center;
+}
+
 .big__screen__images,
 .small__screen__images {
     display: flex;
@@ -175,6 +179,12 @@ summary::before {
 
 .big__screen__images {
     margin-bottom: 100px;
+}
+
+.small__screen__images figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* tablet and bigger */
