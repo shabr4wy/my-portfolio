@@ -23,7 +23,8 @@ a {
     --primary-backGround-color: #ffffff;
     --secondary-backGround-color: #85CDFD;
     --font-color: black;
-    --primary-color: #E1D7C6;
+    /* when selecting font that have blue background */
+    --selection-color: #E1D7C6;
     --hover-state-color: #579BB1;
 }
 
