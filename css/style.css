@@ -384,6 +384,10 @@ summary {
     background-color: var(--secondary-backGround-color);
 }
 
+.project__link a:hover {
+    filter: brightness(1.05);
+}
+
 /* work */
 .card {
     border: 1px solid transparent;
