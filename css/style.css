@@ -180,6 +180,12 @@ summary::before {
     gap: 50px;
 }
 
+.project__tech {
+    display: flex;
+    gap: 20px;
+    padding-top: 20px;
+}
+
 .project__images {
     padding: 100px 0;
 }
