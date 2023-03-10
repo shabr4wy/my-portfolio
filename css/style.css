@@ -374,6 +374,10 @@ summary {
     background-color: var(--secondary-backGround-color);
 }
 
+.project__link a {
+    background-color: var(--secondary-backGround-color);
+}
+
 /* --- changing state --- */
 /* navigation */
 .navigation__item a:hover {
