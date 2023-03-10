@@ -316,9 +316,20 @@ figcaption {
 
 
 /* --- Theme --- */
+/* base Theme */
 html {
     background-color: var(--primary-backGround-color);
     color: var(--font-color);
+}
+
+.about__introduction p::selection,
+.about__introduction span::selection,
+.card figcaption::selection,
+.project__introduction p::selection,
+.project__introduction h3::selection,
+.project__link a::selection
+{
+    background-color: var(--primary-color);
 }
 
 /* navigation */
