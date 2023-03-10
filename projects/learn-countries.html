@@ -12,13 +12,13 @@
 
 
     <nav class="navigation">
-        <div class="navigation__logoText">
+        <section class="navigation__logoText">
             <a class="navigation__logoText__link"
                href="https://abdullah-elshabrawy.vercel.app/"
             >
             Shabrawy
             </a>
-        </div>
+        </section>
 
         <!-- this list "only" shows up when screen width is < 900px -->
         <details class="navigation__smallerScreen">
@@ -40,8 +40,8 @@
 
     <main class="project__Page">
 
-        <div class="project__overview" id="overview">
-            <div class="project__introduction">
+        <section class="project__overview" id="overview">
+            <section class="project__introduction">
                 <h3 class="project__overview__header">Introduction</h3>
 
                 <p>
@@ -50,27 +50,27 @@
                 <p>Frontendmentor provided me with the design material and the API. So I tried to adhere to their instructions to clone the design as much as I can.</p>
                 
                 <p>I built the project for smaller screens then I scaled it up to bigger ones. This method ensures a better way to design a responsive website. Starting small made me focus on the flow of content to make it look logical. This also ensures that any content on the screen has a purpose to be displayed, not only filling spaces.</p>
-            </div>
+            </section>
 
-            <div class="project__challenge">
+            <section class="project__challenge">
                 <h3 class="project__challenge__header"> Challenge </h3>
 
                 <p>One of the hardest challenges I faced is applying dark/light mode. This challenge actually made me understand React more clearly and how it woks.</p>
                 
                 <p>The problem was that I couldn’t select any element to change its color theme. After some research I understood that I can’t select a Dom element in a React component by JS methods “querySelector()” because the html element is not rendered yet on the screen.</p>
-            </div>
+            </section>
             
-            <div class="project__solution">
+            <section class="project__solution">
                 <h3 class="project__solution__header">Solution</h3>
 
                 <p>So, I tried to manipulate the CSS instead of HTML. I used CSS variables for light theme colors. And manipulated those variables depending on the user preferences. Whenever the user changes the theme, React changes the CSS variables values and stores the favorite theme in the local storage for future visits.</p>
-            </div>
+            </section>
             
-        </div>
+        </section>
 
-        <div class="project__images" id="images">
+        <section class="project__images" id="images">
             
-            <div class="big__screen__images">
+            <section class="big__screen__images">
                 <figure>
                     <figcaption>Dark mode - Big screen - Search page</figcaption>
                     <img src="../img/learn-countries-images/learn-countries-1.png" alt="Countries search result when searching for united word. It presents countries with their flags and some more information such as flag, population number, capital, and region." height="750.5" width="1300">
@@ -85,9 +85,9 @@
                     <figcaption>Dark mode - Big screen - Country page</figcaption>
                     <img src="../img/learn-countries-images/learn-countries-3.png" alt="Information about United States country and some more information such as flag, population number, capital, region, border countries, and more" height="750.5" width="1300">
                 </figure>
-            </div>
+            </section>
 
-            <div class="small__screen__images">
+            <section class="small__screen__images">
                 <figure>
                     <figcaption>light mode - Small screen - Country page</figcaption>
                     <img src="../img/learn-countries-images/learn-countries-4.jpg" alt="Information about Oman country and some more information such as flag, population number, capital, region, border countries, and more" height="" width="380">
@@ -97,8 +97,8 @@
                     <figcaption>Dight mode - Small screen - Country page</figcaption>
                     <img src="../img/learn-countries-images/learn-countries-5.jpg" alt="Information about United Arab Emirates country and some more information such as flag, population number, capital, region, border countries, and more" height="" width="380">
                 </figure>
-            </div>
-        </div>
+            </section>
+        </section>
     </main> 
     
     <footer id="contact" class="contact">
