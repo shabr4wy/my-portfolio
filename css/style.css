@@ -187,7 +187,17 @@ summary::before {
 }
 
 .project__images {
-    padding: 100px 0;
+    padding-top: 100px;
+}
+
+.project__link {
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.project__link a {
+    padding: 10px 30px;
+    border-radius: 5px;
 }
 
 .project__introduction,
