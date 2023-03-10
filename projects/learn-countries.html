@@ -68,15 +68,17 @@
             <section class="project__challenge">
                 <h3 class="project__challenge__header"> Challenge </h3>
 
-                <p>One of the hardest challenges I faced is applying dark/light mode. This challenge actually made me understand React more clearly and how it woks.</p>
+                <p>One of the hardest challenges I faced is applying dark/light mode. This challenge actually made me understand React more clearly and how it works.</p>
                 
-                <p>The problem was that I couldn’t select any element to change its color theme. After some research I understood that I can’t select a Dom element in a React component by JS methods “querySelector()” because the html element is not rendered yet on the screen.</p>
+                <p>The problem was that I couldn’t select any element to change its color theme. After some research, I understood that I can’t select a Dom element in a React component by the JS method “querySelector()” because the HTML element is not rendered yet on the screen.</p>
             </section>
             
             <section class="project__solution">
                 <h3 class="project__solution__header">Solution</h3>
 
-                <p>So, I tried to manipulate the CSS instead of HTML. I used CSS variables for light theme colors. And manipulated those variables depending on the user preferences. Whenever the user changes the theme, React changes the CSS variables values and stores the favorite theme in the local storage for future visits.</p>
+                <p>So, I tried to manipulate the CSS instead of HTML. I used CSS variables And manipulated those variables depending on the user preferences. Whenever the user changes the theme, React changes the CSS variables values and stores the favorite theme in the local storage for future visits.</p>
+
+                <p>This way ensures that all themes, styles, layout, and CSS rules are in one file, the CSS file itself. Also, Using CSS variables makes it easy to change color pallets in the future.</p>
             </section>
             
         </section>
