@@ -360,10 +360,12 @@ summary {
 /* about */
 .about__introduction {
     background-color: var(--secondary-backGround-color);
+    box-shadow: 0px 0px 10px grey;
 }
 
 .about__hero img {
     border-radius: 50%;
+    box-shadow: 0px 0px 10px grey;
 }
 
 @media (min-width: 1200px) {
