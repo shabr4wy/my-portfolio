@@ -326,11 +326,11 @@ html {
 .about__introduction p::selection,
 .about__introduction span::selection,
 .card figcaption::selection,
-.project__introduction p::selection,
-.project__introduction h3::selection,
+.project__overview p::selection,
+.project__overview h3::selection,
 .project__link a::selection
 {
-    background-color: var(--primary-color);
+    background-color: var(--selection-color);
 }
 
 /* navigation */
